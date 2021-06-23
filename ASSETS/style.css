@@ -90,6 +90,14 @@ footer{
     width: 50%;
     margin: auto;
 }
+footer li{
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+footer li:hover{
+    color: #3367d6;
+}
 .footer_right{
     display: flex;
     align-items: center;
@@ -104,13 +112,10 @@ footer{
     border-radius: 3px;
     margin-left: 5px;
     padding-right: 5px;
+    cursor: pointer;
 }
 .language span{
     padding-top: 1px;
     font-size: 12px;
     color: black;
-}
-footer li{
-    display: inline-block;
-    margin-right: 5px;
 }
